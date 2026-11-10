@@ -1,0 +1,7 @@
+title: Shoji Watanabe Portfolio
+description: Embedded Software Engineer
+url: "https://watanabe-shoji.github.io"
+baseurl: "/profile"
+
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/

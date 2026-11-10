@@ -1,0 +1,36 @@
+/* コードブロック */
+pre {
+    background-color: #f3f4f6;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    padding: 16px;
+    overflow-x: auto;
+    line-height: 1.6;
+}
+
+/* コード内の文字 */
+pre code {
+    font-family: Consolas, monospace;
+    font-size: 14px;
+}
+
+.highlight {
+    background-color: #f3f4f6;
+    border-radius: 6px;
+}
+
+.highlight pre {
+    background-color: transparent;
+}
+
+blockquote {
+    background-color: #f0f7ff;
+    border-left: 4px solid #3b82f6;
+    padding: 12px 16px;
+    margin: 16px 0;
+    color: #374151;
+}
+
+blockquote p {
+    margin: 0;
+}
