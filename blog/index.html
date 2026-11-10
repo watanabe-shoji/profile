@@ -1,0 +1,18 @@
+---
+layout: post
+title: "ポートフォリオ"
+---
+
+
+<p><h3>画像処理関連</h3></p>
+
+<ul>
+{% for post in site.posts %}
+    <li>
+        <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%Y-%m-%d' }}</time>
+        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </li>
+{% else %}
+    <li>記事は準備中です。</li>
+{% endfor %}
+</ul>
