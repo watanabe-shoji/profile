@@ -165,7 +165,7 @@ rows:10, col:8, Checker Width:20[mm]の設定で、でチェッカーボード�
   --square 0.02           :checker width[mm]に合わせる
   -r image:=/CameraImages :取得するトピック名
 ```
-以下のような画面が表示されるので、[参考]ページに従ってキャリブレーションをおkの合う。
+以下のような画面が表示されるので、[参考]ページに従ってキャリブレーションを行う。
 
 <img
   src="{{ '/assets/images/CameraToScreen/3.3.camera_calibration.png' | relative_url }}"
